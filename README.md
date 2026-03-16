@@ -116,7 +116,7 @@ npm run dev
 ```env
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/moodcanvas
-JWT_SECRET=your_super_secret_jwt_key
+JWT_SECRET=my_super_secret_jwt_key
 ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxx
 CLIENT_URL=http://localhost:5173
 ```
