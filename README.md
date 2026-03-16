@@ -1,10 +1,8 @@
 # 🎨 MoodCanvas — AI-Powered Emotional Journal
 
-> A full-stack journaling app that uses Claude AI to analyze your emotions, detect recurring themes, and map your inner world into a living visual canvas over time.
+> A full-stack journaling app that uses GROQ AI to analyze your emotions, detect recurring themes, and map your inner world into a living visual canvas over time.
 
-![MoodCanvas](https://img.shields.io/badge/Claude%20AI-Powered-7C3AED?style=flat-square&logo=anthropic)
 ![Stack](https://img.shields.io/badge/Stack-React%20%2B%20Node.js%20%2B%20MongoDB-3B82F6?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-10B981?style=flat-square)
 
 ---
 
@@ -41,7 +39,7 @@
 moodcanvas/
 ├── backend/
 │   ├── controllers/
-│   │   └── aiController.js       # Claude AI integration
+│   │   └── aiController.js       # GROQ AI integration
 │   ├── middleware/
 │   │   └── auth.js               # JWT middleware
 │   ├── models/
@@ -95,12 +93,12 @@ moodcanvas/
 
 - Node.js 18+
 - MongoDB (local or [MongoDB Atlas](https://www.mongodb.com/atlas))
-- [Anthropic API Key](https://console.anthropic.com/)
+- [GROQ API Key](https://console.groq.com)
 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/moodcanvas.git
+git clone https://github.com/pritam1011NP/moodcanvas
 cd moodcanvas
 ```
 
@@ -201,6 +199,4 @@ Each journal entry is analyzed and returns:
 
 ---
 
-## 📄 License
 
-MIT © 2025 — Built with ❤️ and Claude AI
